@@ -144,7 +144,7 @@
   .aboutme__media {
     position: absolute;
     bottom: 1.75rem;
-    left: 43.5%;
+    left: 37.5%;
   }
 }
 .aboutme__block--desc {
@@ -222,7 +222,7 @@
   }
 }
 .skill__block--desc {
-  width: 100%;
+  width: 95%;
   max-width: 36rem;
   position: relative;
   right: 0;
@@ -330,6 +330,10 @@
   top: 7px;
   left: -39px;
 }
+.exp__subtitle--link {
+  color: #003cff;
+  text-decoration: underline;
+}
 .exp__point--blue:before {
   border-color: #2962ff;
 }
@@ -347,6 +351,12 @@
 }
 .exp__point--green:after {
   background-color: #6acc6c;
+}
+.exp__point--yellow:before {
+  border-color: #ffe100;
+}
+.exp__point--yellow:after {
+  background-color: #ffe100;
 }
 .exp__desc {
   line-height: 1.75rem;
